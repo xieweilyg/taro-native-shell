@@ -7,41 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* taroDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* taroDemoTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		16DD12B0A5B2C808C26E36F8 /* libPods-taroDemo-taroDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F1A400559474E7D88FAB0C8 /* libPods-taroDemo-taroDemoTests.a */; };
-		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
-		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
-		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2DCD954D1E0B4F2C00145EB5 /* taroDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* taroDemoTests.m */; };
-		7062BCA8489AB03EA086B7A8 /* libPods-taroDemo-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 699C2FA1D4967DF42CCDE2EE /* libPods-taroDemo-tvOS.a */; };
+		27B27CB6260D90D20065DD2C /* main.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = 27B27C8C260D90D10065DD2C /* main.jsbundle */; };
+		27B27CB7260D90D20065DD2C /* back-icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27B27C95260D90D10065DD2C /* back-icon@3x.png */; };
+		27B27CB8260D90D20065DD2C /* back-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27B27C96260D90D10065DD2C /* back-icon@2x.png */; };
+		27B27CB9260D90D20065DD2C /* back-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 27B27C97260D90D10065DD2C /* back-icon.png */; };
+		27B27CBA260D90D20065DD2C /* back-icon-mask.png in Resources */ = {isa = PBXBuildFile; fileRef = 27B27C98260D90D20065DD2C /* back-icon-mask.png */; };
+		27B27CBB260D90D20065DD2C /* success.png in Resources */ = {isa = PBXBuildFile; fileRef = 27B27C9E260D90D20065DD2C /* success.png */; };
+		27B27CBC260D90D20065DD2C /* icon_pic.png in Resources */ = {isa = PBXBuildFile; fileRef = 27B27CA0260D90D20065DD2C /* icon_pic.png */; };
+		27B27CBD260D90D20065DD2C /* icon_close.png in Resources */ = {isa = PBXBuildFile; fileRef = 27B27CA1260D90D20065DD2C /* icon_close.png */; };
+		27B27CBE260D90D20065DD2C /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 27B27CA6260D90D20065DD2C /* play.png */; };
+		27B27CBF260D90D20065DD2C /* loading-warn.png in Resources */ = {isa = PBXBuildFile; fileRef = 27B27CA7260D90D20065DD2C /* loading-warn.png */; };
+		27B27CC0260D90D20065DD2C /* loading.png in Resources */ = {isa = PBXBuildFile; fileRef = 27B27CA8260D90D20065DD2C /* loading.png */; };
+		27B27CC1260D90D20065DD2C /* comm_form_icon_gouxuan.png in Resources */ = {isa = PBXBuildFile; fileRef = 27B27CAC260D90D20065DD2C /* comm_form_icon_gouxuan.png */; };
+		27B27CC2260D90D20065DD2C /* yz_prop_icon_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 27B27CAD260D90D20065DD2C /* yz_prop_icon_arrow.png */; };
+		27B27CC3260D90D20065DD2C /* esf_calculator_img_building.png in Resources */ = {isa = PBXBuildFile; fileRef = 27B27CAE260D90D20065DD2C /* esf_calculator_img_building.png */; };
+		27B27CC4260D90D20065DD2C /* yz_prop_icon_arrow_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 27B27CAF260D90D20065DD2C /* yz_prop_icon_arrow_white.png */; };
+		27B27CC5260D90D20065DD2C /* esf_calculator_icon_close.png in Resources */ = {isa = PBXBuildFile; fileRef = 27B27CB0260D90D20065DD2C /* esf_calculator_icon_close.png */; };
+		27B27CC6260D90D20065DD2C /* comm_form_icon_weigouxuan.png in Resources */ = {isa = PBXBuildFile; fileRef = 27B27CB1260D90D20065DD2C /* comm_form_icon_weigouxuan.png */; };
+		27B27CC7260D90D20065DD2C /* esf_calculator_icon_question.png in Resources */ = {isa = PBXBuildFile; fileRef = 27B27CB2260D90D20065DD2C /* esf_calculator_icon_question.png */; };
+		27B27CC8260D90D20065DD2C /* esf_calculator_img_percent.png in Resources */ = {isa = PBXBuildFile; fileRef = 27B27CB3260D90D20065DD2C /* esf_calculator_img_percent.png */; };
+		27B27CC9260D90D20065DD2C /* esf_calculator_img_mark.png in Resources */ = {isa = PBXBuildFile; fileRef = 27B27CB4260D90D20065DD2C /* esf_calculator_img_mark.png */; };
+		27B27CCA260D90D20065DD2C /* esf_calculator_img_bggradient.png in Resources */ = {isa = PBXBuildFile; fileRef = 27B27CB5260D90D20065DD2C /* esf_calculator_img_bggradient.png */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		8C30C5B34B7375F09822F1CC /* libPods-taroDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FAD72A9FDA01C565E8774A2A /* libPods-taroDemo.a */; };
-		B19F7A7DE3D14D675AEF52BB /* libPods-taroDemo-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3113A5C1242D017831479AB0 /* libPods-taroDemo-tvOSTests.a */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = taroDemo;
-		};
-		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
-			remoteInfo = "taroDemo-tvOS";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
-		00E356EE1AD99517003FC87E /* taroDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = taroDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* taroDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = taroDemoTests.m; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* taroDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = taroDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -50,8 +44,27 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = taroDemo/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = taroDemo/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = taroDemo/main.m; sourceTree = "<group>"; };
-		2D02E47B1E0B4A5D006451C7 /* taroDemo-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "taroDemo-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E4901E0B4A5D006451C7 /* taroDemo-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "taroDemo-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		27B27C8C260D90D10065DD2C /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
+		27B27C95260D90D10065DD2C /* back-icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back-icon@3x.png"; sourceTree = "<group>"; };
+		27B27C96260D90D10065DD2C /* back-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back-icon@2x.png"; sourceTree = "<group>"; };
+		27B27C97260D90D10065DD2C /* back-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back-icon.png"; sourceTree = "<group>"; };
+		27B27C98260D90D20065DD2C /* back-icon-mask.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back-icon-mask.png"; sourceTree = "<group>"; };
+		27B27C9E260D90D20065DD2C /* success.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = success.png; sourceTree = "<group>"; };
+		27B27CA0260D90D20065DD2C /* icon_pic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_pic.png; sourceTree = "<group>"; };
+		27B27CA1260D90D20065DD2C /* icon_close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_close.png; sourceTree = "<group>"; };
+		27B27CA6260D90D20065DD2C /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+		27B27CA7260D90D20065DD2C /* loading-warn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "loading-warn.png"; sourceTree = "<group>"; };
+		27B27CA8260D90D20065DD2C /* loading.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loading.png; sourceTree = "<group>"; };
+		27B27CAC260D90D20065DD2C /* comm_form_icon_gouxuan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = comm_form_icon_gouxuan.png; sourceTree = "<group>"; };
+		27B27CAD260D90D20065DD2C /* yz_prop_icon_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yz_prop_icon_arrow.png; sourceTree = "<group>"; };
+		27B27CAE260D90D20065DD2C /* esf_calculator_img_building.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = esf_calculator_img_building.png; sourceTree = "<group>"; };
+		27B27CAF260D90D20065DD2C /* yz_prop_icon_arrow_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yz_prop_icon_arrow_white.png; sourceTree = "<group>"; };
+		27B27CB0260D90D20065DD2C /* esf_calculator_icon_close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = esf_calculator_icon_close.png; sourceTree = "<group>"; };
+		27B27CB1260D90D20065DD2C /* comm_form_icon_weigouxuan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = comm_form_icon_weigouxuan.png; sourceTree = "<group>"; };
+		27B27CB2260D90D20065DD2C /* esf_calculator_icon_question.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = esf_calculator_icon_question.png; sourceTree = "<group>"; };
+		27B27CB3260D90D20065DD2C /* esf_calculator_img_percent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = esf_calculator_img_percent.png; sourceTree = "<group>"; };
+		27B27CB4260D90D20065DD2C /* esf_calculator_img_mark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = esf_calculator_img_mark.png; sourceTree = "<group>"; };
+		27B27CB5260D90D20065DD2C /* esf_calculator_img_bggradient.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = esf_calculator_img_bggradient.png; sourceTree = "<group>"; };
 		2F7E1F739FD90B19439CC029 /* Pods-taroDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-taroDemo.debug.xcconfig"; path = "Target Support Files/Pods-taroDemo/Pods-taroDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		3113A5C1242D017831479AB0 /* libPods-taroDemo-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-taroDemo-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		35A389974BF329D180F8C2C6 /* Pods-taroDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-taroDemo.release.xcconfig"; path = "Target Support Files/Pods-taroDemo/Pods-taroDemo.release.xcconfig"; sourceTree = "<group>"; };
@@ -70,35 +83,11 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		00E356EB1AD99517003FC87E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				16DD12B0A5B2C808C26E36F8 /* libPods-taroDemo-taroDemoTests.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				8C30C5B34B7375F09822F1CC /* libPods-taroDemo.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2D02E4781E0B4A5D006451C7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7062BCA8489AB03EA086B7A8 /* libPods-taroDemo-tvOS.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2D02E48D1E0B4A5D006451C7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B19F7A7DE3D14D675AEF52BB /* libPods-taroDemo-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,7 +114,8 @@
 		13B07FAE1A68108700A75B9A /* taroDemo */ = {
 			isa = PBXGroup;
 			children = (
-				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
+				27B27C8D260D90D10065DD2C /* assets */,
+				27B27C8C260D90D10065DD2C /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
@@ -134,6 +124,193 @@
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
 			name = taroDemo;
+			sourceTree = "<group>";
+		};
+		27B27C8D260D90D10065DD2C /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				27B27C8E260D90D10065DD2C /* node_modules */,
+				27B27CA9260D90D20065DD2C /* src */,
+			);
+			path = assets;
+			sourceTree = "<group>";
+		};
+		27B27C8E260D90D10065DD2C /* node_modules */ = {
+			isa = PBXGroup;
+			children = (
+				27B27C8F260D90D10065DD2C /* @react-navigation */,
+				27B27C99260D90D20065DD2C /* @tarojs */,
+			);
+			path = node_modules;
+			sourceTree = "<group>";
+		};
+		27B27C8F260D90D10065DD2C /* @react-navigation */ = {
+			isa = PBXGroup;
+			children = (
+				27B27C90260D90D10065DD2C /* stack */,
+			);
+			path = "@react-navigation";
+			sourceTree = "<group>";
+		};
+		27B27C90260D90D10065DD2C /* stack */ = {
+			isa = PBXGroup;
+			children = (
+				27B27C91260D90D10065DD2C /* lib */,
+			);
+			path = stack;
+			sourceTree = "<group>";
+		};
+		27B27C91260D90D10065DD2C /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				27B27C92260D90D10065DD2C /* commonjs */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		27B27C92260D90D10065DD2C /* commonjs */ = {
+			isa = PBXGroup;
+			children = (
+				27B27C93260D90D10065DD2C /* views */,
+			);
+			path = commonjs;
+			sourceTree = "<group>";
+		};
+		27B27C93260D90D10065DD2C /* views */ = {
+			isa = PBXGroup;
+			children = (
+				27B27C94260D90D10065DD2C /* assets */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		27B27C94260D90D10065DD2C /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				27B27C95260D90D10065DD2C /* back-icon@3x.png */,
+				27B27C96260D90D10065DD2C /* back-icon@2x.png */,
+				27B27C97260D90D10065DD2C /* back-icon.png */,
+				27B27C98260D90D20065DD2C /* back-icon-mask.png */,
+			);
+			path = assets;
+			sourceTree = "<group>";
+		};
+		27B27C99260D90D20065DD2C /* @tarojs */ = {
+			isa = PBXGroup;
+			children = (
+				27B27C9A260D90D20065DD2C /* taro-rn */,
+				27B27CA2260D90D20065DD2C /* components-rn */,
+			);
+			path = "@tarojs";
+			sourceTree = "<group>";
+		};
+		27B27C9A260D90D20065DD2C /* taro-rn */ = {
+			isa = PBXGroup;
+			children = (
+				27B27C9B260D90D20065DD2C /* dist */,
+			);
+			path = "taro-rn";
+			sourceTree = "<group>";
+		};
+		27B27C9B260D90D20065DD2C /* dist */ = {
+			isa = PBXGroup;
+			children = (
+				27B27C9C260D90D20065DD2C /* lib */,
+			);
+			path = dist;
+			sourceTree = "<group>";
+		};
+		27B27C9C260D90D20065DD2C /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				27B27C9D260D90D20065DD2C /* showModal */,
+				27B27C9F260D90D20065DD2C /* scanCode */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		27B27C9D260D90D20065DD2C /* showModal */ = {
+			isa = PBXGroup;
+			children = (
+				27B27C9E260D90D20065DD2C /* success.png */,
+			);
+			path = showModal;
+			sourceTree = "<group>";
+		};
+		27B27C9F260D90D20065DD2C /* scanCode */ = {
+			isa = PBXGroup;
+			children = (
+				27B27CA0260D90D20065DD2C /* icon_pic.png */,
+				27B27CA1260D90D20065DD2C /* icon_close.png */,
+			);
+			path = scanCode;
+			sourceTree = "<group>";
+		};
+		27B27CA2260D90D20065DD2C /* components-rn */ = {
+			isa = PBXGroup;
+			children = (
+				27B27CA3260D90D20065DD2C /* dist */,
+			);
+			path = "components-rn";
+			sourceTree = "<group>";
+		};
+		27B27CA3260D90D20065DD2C /* dist */ = {
+			isa = PBXGroup;
+			children = (
+				27B27CA4260D90D20065DD2C /* assets */,
+			);
+			path = dist;
+			sourceTree = "<group>";
+		};
+		27B27CA4260D90D20065DD2C /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				27B27CA5260D90D20065DD2C /* video */,
+				27B27CA7260D90D20065DD2C /* loading-warn.png */,
+				27B27CA8260D90D20065DD2C /* loading.png */,
+			);
+			path = assets;
+			sourceTree = "<group>";
+		};
+		27B27CA5260D90D20065DD2C /* video */ = {
+			isa = PBXGroup;
+			children = (
+				27B27CA6260D90D20065DD2C /* play.png */,
+			);
+			path = video;
+			sourceTree = "<group>";
+		};
+		27B27CA9260D90D20065DD2C /* src */ = {
+			isa = PBXGroup;
+			children = (
+				27B27CAA260D90D20065DD2C /* assets */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		27B27CAA260D90D20065DD2C /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				27B27CAB260D90D20065DD2C /* images */,
+			);
+			path = assets;
+			sourceTree = "<group>";
+		};
+		27B27CAB260D90D20065DD2C /* images */ = {
+			isa = PBXGroup;
+			children = (
+				27B27CAC260D90D20065DD2C /* comm_form_icon_gouxuan.png */,
+				27B27CAD260D90D20065DD2C /* yz_prop_icon_arrow.png */,
+				27B27CAE260D90D20065DD2C /* esf_calculator_img_building.png */,
+				27B27CAF260D90D20065DD2C /* yz_prop_icon_arrow_white.png */,
+				27B27CB0260D90D20065DD2C /* esf_calculator_icon_close.png */,
+				27B27CB1260D90D20065DD2C /* comm_form_icon_weigouxuan.png */,
+				27B27CB2260D90D20065DD2C /* esf_calculator_icon_question.png */,
+				27B27CB3260D90D20065DD2C /* esf_calculator_img_percent.png */,
+				27B27CB4260D90D20065DD2C /* esf_calculator_img_mark.png */,
+				27B27CB5260D90D20065DD2C /* esf_calculator_img_bggradient.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -175,9 +352,6 @@
 			isa = PBXGroup;
 			children = (
 				13B07F961A680F5B00A75B9A /* taroDemo.app */,
-				00E356EE1AD99517003FC87E /* taroDemoTests.xctest */,
-				2D02E47B1E0B4A5D006451C7 /* taroDemo-tvOS.app */,
-				2D02E4901E0B4A5D006451C7 /* taroDemo-tvOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -200,26 +374,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* taroDemoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "taroDemoTests" */;
-			buildPhases = (
-				05017D87303AE1F818785D46 /* [CP] Check Pods Manifest.lock */,
-				00E356EA1AD99517003FC87E /* Sources */,
-				00E356EB1AD99517003FC87E /* Frameworks */,
-				00E356EC1AD99517003FC87E /* Resources */,
-				4E8B4E51BE2E029BC6AA1C64 /* [CP] Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				00E356F51AD99517003FC87E /* PBXTargetDependency */,
-			);
-			name = taroDemoTests;
-			productName = taroDemoTests;
-			productReference = 00E356EE1AD99517003FC87E /* taroDemoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		13B07F861A680F5B00A75B9A /* taroDemo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "taroDemo" */;
@@ -241,45 +395,6 @@
 			productReference = 13B07F961A680F5B00A75B9A /* taroDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E47A1E0B4A5D006451C7 /* taroDemo-tvOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "taroDemo-tvOS" */;
-			buildPhases = (
-				A3C77A35B8D0CEF748AF8E93 /* [CP] Check Pods Manifest.lock */,
-				FD10A7F122414F3F0027D42C /* Start Packager */,
-				2D02E4771E0B4A5D006451C7 /* Sources */,
-				2D02E4781E0B4A5D006451C7 /* Frameworks */,
-				2D02E4791E0B4A5D006451C7 /* Resources */,
-				2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "taroDemo-tvOS";
-			productName = "taroDemo-tvOS";
-			productReference = 2D02E47B1E0B4A5D006451C7 /* taroDemo-tvOS.app */;
-			productType = "com.apple.product-type.application";
-		};
-		2D02E48F1E0B4A5D006451C7 /* taroDemo-tvOSTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "taroDemo-tvOSTests" */;
-			buildPhases = (
-				33FCE09EEAB991F73A11053A /* [CP] Check Pods Manifest.lock */,
-				2D02E48C1E0B4A5D006451C7 /* Sources */,
-				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
-				2D02E48E1E0B4A5D006451C7 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
-			);
-			name = "taroDemo-tvOSTests";
-			productName = "taroDemo-tvOSTests";
-			productReference = 2D02E4901E0B4A5D006451C7 /* taroDemo-tvOSTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -288,23 +403,10 @@
 			attributes = {
 				LastUpgradeCheck = 1130;
 				TargetAttributes = {
-					00E356ED1AD99517003FC87E = {
-						CreatedOnToolsVersion = 6.2;
-						ProvisioningStyle = Manual;
-						TestTargetID = 13B07F861A680F5B00A75B9A;
-					};
 					13B07F861A680F5B00A75B9A = {
+						DevelopmentTeam = RNPBCAGY6B;
 						LastSwiftMigration = 1120;
-						ProvisioningStyle = Automatic;
-					};
-					2D02E47A1E0B4A5D006451C7 = {
-						CreatedOnToolsVersion = 8.2.1;
-						ProvisioningStyle = Automatic;
-					};
-					2D02E48F1E0B4A5D006451C7 = {
-						CreatedOnToolsVersion = 8.2.1;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 2D02E47A1E0B4A5D006451C7;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -322,42 +424,38 @@
 			projectRoot = "";
 			targets = (
 				13B07F861A680F5B00A75B9A /* taroDemo */,
-				00E356ED1AD99517003FC87E /* taroDemoTests */,
-				2D02E47A1E0B4A5D006451C7 /* taroDemo-tvOS */,
-				2D02E48F1E0B4A5D006451C7 /* taroDemo-tvOSTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		00E356EC1AD99517003FC87E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		13B07F8E1A680F5B00A75B9A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27B27CB6260D90D20065DD2C /* main.jsbundle in Resources */,
+				27B27CBC260D90D20065DD2C /* icon_pic.png in Resources */,
+				27B27CC7260D90D20065DD2C /* esf_calculator_icon_question.png in Resources */,
+				27B27CC6260D90D20065DD2C /* comm_form_icon_weigouxuan.png in Resources */,
+				27B27CC3260D90D20065DD2C /* esf_calculator_img_building.png in Resources */,
+				27B27CC8260D90D20065DD2C /* esf_calculator_img_percent.png in Resources */,
+				27B27CB7260D90D20065DD2C /* back-icon@3x.png in Resources */,
+				27B27CBD260D90D20065DD2C /* icon_close.png in Resources */,
+				27B27CC2260D90D20065DD2C /* yz_prop_icon_arrow.png in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2D02E4791E0B4A5D006451C7 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2D02E48E1E0B4A5D006451C7 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				27B27CC5260D90D20065DD2C /* esf_calculator_icon_close.png in Resources */,
+				27B27CC1260D90D20065DD2C /* comm_form_icon_gouxuan.png in Resources */,
+				27B27CBA260D90D20065DD2C /* back-icon-mask.png in Resources */,
+				27B27CBE260D90D20065DD2C /* play.png in Resources */,
+				27B27CCA260D90D20065DD2C /* esf_calculator_img_bggradient.png in Resources */,
+				27B27CC9260D90D20065DD2C /* esf_calculator_img_mark.png in Resources */,
+				27B27CB8260D90D20065DD2C /* back-icon@2x.png in Resources */,
+				27B27CB9260D90D20065DD2C /* back-icon.png in Resources */,
+				27B27CBF260D90D20065DD2C /* loading-warn.png in Resources */,
+				27B27CBB260D90D20065DD2C /* success.png in Resources */,
+				27B27CC4260D90D20065DD2C /* yz_prop_icon_arrow_white.png in Resources */,
+				27B27CC0260D90D20065DD2C /* loading.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,7 +464,7 @@
 /* Begin PBXShellScriptBuildPhase section */
 		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 8;
 			files = (
 			);
 			inputPaths = (
@@ -374,87 +472,9 @@
 			name = "Bundle React Native code and images";
 			outputPaths = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
+			runOnlyForDeploymentPostprocessing = 1;
 			shellPath = /bin/sh;
-			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
-		};
-		05017D87303AE1F818785D46 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-taroDemo-taroDemoTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Bundle React Native Code And Images";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
-		};
-		33FCE09EEAB991F73A11053A /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-taroDemo-tvOSTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		4E8B4E51BE2E029BC6AA1C64 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-taroDemo-taroDemoTests/Pods-taroDemo-taroDemoTests-resources.sh",
-				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
-				"${PODS_ROOT}/TZImagePickerController/TZImagePickerController/TZImagePickerController/TZImagePickerController.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TZImagePickerController.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-taroDemo-taroDemoTests/Pods-taroDemo-taroDemoTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
 		};
 		9E5FC2D844E14CC95C46F8C7 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -478,48 +498,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A3C77A35B8D0CEF748AF8E93 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-taroDemo-tvOS-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = "Start Packager";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		FD10A7F122414F3F0027D42C /* Start Packager */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -561,14 +540,6 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		00E356EA1AD99517003FC87E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				00E356F31AD99517003FC87E /* taroDemoTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		13B07F871A680F5B00A75B9A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -578,104 +549,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2D02E4771E0B4A5D006451C7 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */,
-				2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2D02E48C1E0B4A5D006451C7 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2DCD954D1E0B4F2C00145EB5 /* taroDemoTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* taroDemo */;
-			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
-		};
-		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 2D02E47A1E0B4A5D006451C7 /* taroDemo-tvOS */;
-			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
-		00E356F61AD99517003FC87E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9C654B1D0374E4BB9A25D614 /* Pods-taroDemo-taroDemoTests.debug.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_IDENTITY = "Apple Development";
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = taroDemoTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				OTHER_LDFLAGS = (
-					"-ObjC",
-					"-lc++",
-					"$(inherited)",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/taroDemo.app/taroDemo";
-			};
-			name = Debug;
-		};
-		00E356F71AD99517003FC87E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6975C95C20C1A1A5A54FF57A /* Pods-taroDemo-taroDemoTests.release.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_IDENTITY = "Apple Development";
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
-				CODE_SIGN_STYLE = Manual;
-				COPY_PHASE_STRIP = NO;
-				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = taroDemoTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				OTHER_LDFLAGS = (
-					"-ObjC",
-					"-lc++",
-					"$(inherited)",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/taroDemo.app/taroDemo";
-			};
-			name = Release;
-		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2F7E1F739FD90B19439CC029 /* Pods-taroDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Yunfeng Shen (VKPX9N87L2)";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = RNPBCAGY6B;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = taroDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -684,9 +570,9 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.taro.demo;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.jikejia.jikejia;
 				PRODUCT_NAME = taroDemo;
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = jikejia_DEV_profile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -699,10 +585,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = RNPBCAGY6B;
 				INFOPLIST_FILE = taroDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -710,121 +596,11 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.taro.demo;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.jikejia.jikejia;
 				PRODUCT_NAME = taroDemo;
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = JikeJia_Product_20210325;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
-			};
-			name = Release;
-		};
-		2D02E4971E0B4A5E006451C7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8A3B488C0CB8DDF2E57BC378 /* Pods-taroDemo-tvOS.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_TESTABILITY = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "taroDemo-tvOS/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					"-ObjC",
-					"-lc++",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.taroDemo-tvOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = appletvos;
-				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 10.0;
-			};
-			name = Debug;
-		};
-		2D02E4981E0B4A5E006451C7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 423E938D2B48920EA0ECD552 /* Pods-taroDemo-tvOS.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "taroDemo-tvOS/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					"-ObjC",
-					"-lc++",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.taroDemo-tvOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = appletvos;
-				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 10.0;
-			};
-			name = Release;
-		};
-		2D02E4991E0B4A5E006451C7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4092505E8D53203D7579B1B6 /* Pods-taroDemo-tvOSTests.debug.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_TESTABILITY = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "taroDemo-tvOSTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					"-ObjC",
-					"-lc++",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.taroDemo-tvOSTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/taroDemo-tvOS.app/taroDemo-tvOS";
-				TVOS_DEPLOYMENT_TARGET = 10.1;
-			};
-			name = Debug;
-		};
-		2D02E49A1E0B4A5E006451C7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E24D309F9D45EA8F182473F5 /* Pods-taroDemo-tvOSTests.release.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "taroDemo-tvOSTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					"-ObjC",
-					"-lc++",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.taroDemo-tvOSTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/taroDemo-tvOS.app/taroDemo-tvOS";
-				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Release;
 		};
@@ -944,38 +720,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "taroDemoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				00E356F61AD99517003FC87E /* Debug */,
-				00E356F71AD99517003FC87E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "taroDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
 				13B07F951A680F5B00A75B9A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "taroDemo-tvOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2D02E4971E0B4A5E006451C7 /* Debug */,
-				2D02E4981E0B4A5E006451C7 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "taroDemo-tvOSTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2D02E4991E0B4A5E006451C7 /* Debug */,
-				2D02E49A1E0B4A5E006451C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
