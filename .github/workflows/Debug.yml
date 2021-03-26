@@ -47,7 +47,10 @@ jobs:
 
       - name: Build app
         run: |
+          pwd
+          cd ios
           fastlane run build_app workspace:"taroDemo.xcworkspace" configuration:"Debug" scheme:"taroDemo"
+          cd ..
 
       - name: Upload build artifacts
         uses: actions/upload-artifact@v2
