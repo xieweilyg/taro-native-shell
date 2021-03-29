@@ -28,12 +28,23 @@ platform :ios do
 			workspace: "taroDemo.xcworkspace",
 			export_method: "development",
 			configuration: "Debug",
+			clean: true,
 			export_options: {
 				method: "development",
+				compileBitcode: false,
 				provisioningProfiles: {
 					"cn.jikejia.jikejia" => "jikejia_DEV_profile"
 				}
 			}
+		)
+	end
+
+	desc "release"
+	lane :build_release do |options|
+		build_app(
+			scheme: "taroDemo",
+			workspace: "taroDemo.xcworkspace",
+			clean: true
 		)
 	end
 	
