@@ -94,7 +94,7 @@ jobs:
         run: |
           pwd
           cd ios
-          fastlane run build_app workspace:"taroDemo.xcworkspace" configuration:"Debug" scheme:"taroDemo"
+          fastlane run build_app workspace:"taroDemo.xcworkspace" configuration:"Debug" export_method:"development" scheme:"taroDemo" export_options:{method: "development"}
           cd ..
 
       - name: Upload build artifacts
