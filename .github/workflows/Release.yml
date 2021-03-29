@@ -45,9 +45,24 @@ jobs:
         run: |
           exec .github/scripts/import-profile.sh
 
+      - name: Download Taro Products
+        uses: actions/download-artifact@v2
+        with: 
+          name: taro-ios-products
+          path: ~/download/taro-products
+
+      - name: Import Taro Product
+        run: |
+          mv ~/download/taro-products/main.jsbundle ./ios/main.jsbundle
+          rsync -a ~/download/taro-products/assets/ ./ios/assets/
+          rm -rf ~/download/taro-products/
+
       - name: Build app
         run: |
-          fastlane run build_app workspace:"taroDemo.xcworkspace" configuration:"Release" export_method:"app-store" scheme:"taroDemo"
+          pwd
+          cd ios
+          bundle exec fastlane build_release
+          cd ..
 
       - name: Upload build artifacts
         uses: actions/upload-artifact@v2
