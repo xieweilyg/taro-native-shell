@@ -29,10 +29,10 @@ platform :ios do
 			export_method: "development",
 			configuration: "Debug",
 			export_options: {
+				method: "development",
 				provisioningProfiles: {
 					"cn.jikejia.jikejia" => "jikejia_DEV_profile"
 				}
-				method: "development"
 			}
 		)
 	end

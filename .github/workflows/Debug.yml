@@ -94,7 +94,7 @@ jobs:
         run: |
           pwd
           cd ios
-          fastlane build_dev
+          bundle exec fastlane build_dev
           cd ..
 
       - name: Upload build artifacts
