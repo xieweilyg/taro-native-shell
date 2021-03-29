@@ -47,7 +47,7 @@ jobs:
 
       - name: Build app
         run: |
-          fastlane run build_app workspace:"taroDemo.xcworkspace" configuration:"Release" export_method:"app-store" scheme:"taroDemo" export_options:{method: "app-store"}
+          fastlane run build_app workspace:"taroDemo.xcworkspace" configuration:"Release" export_method:"app-store" scheme:"taroDemo"
 
       - name: Upload build artifacts
         uses: actions/upload-artifact@v2
