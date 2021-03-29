@@ -6,7 +6,40 @@ on:
     tags: [ d* ]
 
 jobs:
-  deploy:
+  build-taro:
+    runs-on: macos-latest
+    steps: 
+      - name: Fecth Taro JS Project
+        uses: actions/checkout@v2
+        with:
+          repository: xieweilyg/Taro-Mortgage-Calculator
+      - name: Get yarn cache directory path
+        id: yarn-cache-dir-path
+        run: echo "::set-output name=dir::$(yarn cache dir)"
+      - name: Cache node modules
+        uses: actions/cache@v2
+        env:
+          cache-name: cache-node-modules
+        with:
+          path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
+          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-yarn-
+      - name: Install yarn dependencies
+        if: steps.cache-node-modules.outputs.cache-hit != 'true'
+        run: |
+          yarn install
+      - name: Build Taro JS Bundle
+        run: |
+          npx taro build --type rn --platform ios
+      - name: Upload Taro Products
+        uses: actions/upload-artifact@v2
+        with:
+          name: taro-ios-products
+          path: dist/rn/ios/
+
+  build-ios:
+    needs: build-taro
     runs-on: macos-latest
 
     strategy:
@@ -44,6 +77,18 @@ jobs:
           PROVISIONING_PROFILE_DATA: ${{ secrets.DEBUG_PROVISIONING_PROFILE_DATA }}
         run: |
           exec .github/scripts/import-profile.sh
+
+      - name: Download Taro Products
+        uses: actions/download-artifact@v2
+        with: 
+          name: taro-ios-products
+          path: ~/download/taro-products
+
+      - name: Import Taro Product
+        run: |
+          mv ~/download/taro-products/main.jsbundle ./ios/main.jsbundle
+          rsync -a ~/download/taro-products/assets/ ./ios/assets/
+          rm -rf ~/download/taro-products/
 
       - name: Build app
         run: |
