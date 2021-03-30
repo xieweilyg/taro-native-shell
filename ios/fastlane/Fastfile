@@ -29,6 +29,7 @@ platform :ios do
 			export_method: "development",
 			configuration: "Debug",
 			clean: true,
+			xcargs: "GCC_PREPROCESSOR_DEFINITIONS='$(inherited) DEBUG_TaroRN=1'",
 			export_options: {
 				method: "development",
 				compileBitcode: false,
