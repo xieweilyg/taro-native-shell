@@ -104,13 +104,12 @@ jobs:
           bundle exec fastlane build_release
 
       - name: Upload release assets
-        run: cd ios
         if: startsWith(github.ref, 'refs/tags/r')
         uses: softprops/action-gh-release@v1
         with:
           files: |
-            taroDemo.ipa
-            taroDemo.app.dSYM.zip
+            ios/taroDemo.ipa
+            ios/taroDemo.app.dSYM.zip
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
