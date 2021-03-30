@@ -72,7 +72,7 @@ static void InitializeFlipper(UIApplication *application) {
 #ifdef DEBUG_TaroRN
   return [[NSBundle mainBundle] URLForResource:@"main" withExtension:@"jsbundle"];
 #endif
-  
+
 #if DEBUG
   return [[RCTBundleURLProvider sharedSettings] jsBundleURLForBundleRoot:@"index" fallbackResource:nil];
 #else

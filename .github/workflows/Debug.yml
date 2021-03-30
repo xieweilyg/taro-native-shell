@@ -74,6 +74,11 @@ jobs:
       - name: Install pods
         run: cd ios && pod install
 
+      - name: Change react-native-xcode.sh
+        run: |
+          cd node_modules/react-native/scripts
+          echo "exit 0;">react-native-xcode.sh
+        
       - name: Set environment variables from project settings
         run: |
           exec .github/scripts/set-env-from-xcodeproj.sh
