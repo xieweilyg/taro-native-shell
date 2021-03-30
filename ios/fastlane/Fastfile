@@ -25,7 +25,7 @@ platform :ios do
 	lane :build_dev do |options|
 		build_app(
 			scheme: "taroDemo",
-			workspace: "taroDemo.xcworkspace",
+			workspace: "./ios/taroDemo.xcworkspace",
 			export_method: "development",
 			configuration: "Debug",
 			clean: true,
@@ -43,7 +43,7 @@ platform :ios do
 	lane :build_release do |options|
 		build_app(
 			scheme: "taroDemo",
-			workspace: "taroDemo.xcworkspace",
+			workspace: "./ios/taroDemo.xcworkspace",
 			clean: true
 		)
 	end

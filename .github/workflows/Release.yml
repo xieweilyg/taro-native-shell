@@ -60,10 +60,8 @@ jobs:
       - name: Build app
         run: |
           pwd
-          cd ios
           bundle install
           bundle exec fastlane build_release
-          cd ..
 
       - name: Upload build artifacts
         uses: actions/upload-artifact@v2
