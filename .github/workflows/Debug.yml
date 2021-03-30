@@ -101,6 +101,7 @@ jobs:
         run: |
           mv ~/download/taro-products/main.jsbundle ./ios/main.jsbundle
           rsync -a ~/download/taro-products/assets/ ./ios/assets/
+          cat ./ios/main.jsbundle
           rm -rf ~/download/taro-products/
 
       - name: Build app
