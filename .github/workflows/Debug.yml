@@ -93,21 +93,17 @@ jobs:
       - name: Build app
         run: |
           pwd
+          cd ios
+          pwd
           bundle install
           bundle exec fastlane build_dev
-
-      - name: Upload build artifacts
-        uses: actions/upload-artifact@v2
-        with:
-          name: build.log
-          path: taroDemo/
 
       - name: Upload release assets
         if: startsWith(github.ref, 'refs/tags/d')
         uses: softprops/action-gh-release@v1
         with:
           files: |
-            taroDemo.ipa
-            taroDemo.app.dSYM.zip
+            .ios/taroDemo.ipa
+            .ios/taroDemo.app.dSYM.zip
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
