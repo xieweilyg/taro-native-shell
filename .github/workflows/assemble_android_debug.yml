@@ -30,7 +30,7 @@ env:
   # 版本号
   VERSION_CODE: 10
   # 密钥库文件
-  KEYSTORE_FILE: debug.keystore
+  KEYSTORE_FILE: android/debug.keystore
   # 密钥库口令
   KEYSTORE_PASSWORD: android
   # 密钥库别名
@@ -42,7 +42,7 @@ env:
 jobs:
   assemble:
     runs-on: ubuntu-latest
-    steps: 
+    steps:
       - name: Checkout Project
         uses: actions/checkout@v2
       - name: Cache node_modules Folder
