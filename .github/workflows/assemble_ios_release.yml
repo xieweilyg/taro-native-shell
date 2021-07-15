@@ -4,7 +4,7 @@ name: Assemble Ios Release
 # 触发工作流程的事件
 on:
   push:
-    branches: [ master ]
+    branches: [ test1 ]
     tags: [ v* ]
   pull_request:
     branches: [ master ]
@@ -14,13 +14,13 @@ on:
 # 工作流环境变量
 env:
   # 应用的application_id
-  APP_ID: com.taro.demo
+  APP_ID: cn.jikejia.jikejia
   APP_NAME: Taro Demo
-  VERSION_NUMBER: 1.0.0
-  BUILD_NUMBER: 1.0.0.0
+  VERSION_NUMBER: 3.2.6
+  BUILD_NUMBER: 3.2.6.11
   BUILD_TYPE: release
-  TEAM_ID: XXXXXXXXXX
-  PROVISIONING_PROFILE_SPECIFIER: Product_profile
+  TEAM_ID: RNPBCAGY6B
+  PROVISIONING_PROFILE_SPECIFIER: JikeJia_Product_20210325
   CODE_SIGN_IDENTITY: iPhone Distribution
   SIGNING_CERTIFICATE_P12_DATA: ${{secrets.RELEASE_SIGNING_CERTIFICATE_P12_DATA}}
   SIGNING_CERTIFICATE_PASSWORD: ${{secrets.RELEASE_SIGNING_CERTIFICATE_PASSWORD}}
