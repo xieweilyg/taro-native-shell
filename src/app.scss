@@ -1,0 +1,57 @@
+// api测试css
+.view-contain {
+    margin: 0 auto;
+}
+
+.view-item {
+    margin: 10px 10px 0 10px;
+    border: 1px solid #f0f0f0;
+}
+
+.test-one {
+    background-color: #fff;
+}
+
+.content-hd {
+    padding: 20px 0;
+    width: 100%;
+}
+
+.content-hd-text {
+    text-align: center;
+    font-size: 30px;
+}
+
+.content-bd {
+    padding: 20px 0;
+    width: 100%;
+}
+
+// 组件测试css
+.test-item {
+    display: flex;
+    margin: 10px;
+}
+
+.test-block-hd {
+    margin: 20px auto;
+    &__text {
+        margin: 10px 0;
+        font-size: 30px;
+        font-weight: bold;
+    }
+}
+
+.test-block-bd {
+    border: 10px solid #ccc;
+    padding: 20px;
+}
+
+// 其他样式
+.one-block {
+    height: 200px;
+}
+.center-text {
+    text-align: center;
+    padding: 20px;
+}
