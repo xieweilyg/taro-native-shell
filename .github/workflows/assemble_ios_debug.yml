@@ -17,7 +17,6 @@ env:
   APP_ID: cn.jikejia.jikejia
   APP_NAME: Taro Demo
   VERSION_NUMBER: 3.2.6
-  BUILD_NUMBER: 3.2.6.8
   BUILD_TYPE: debug
   TEAM_ID: RNPBCAGY6B
   PROVISIONING_PROFILE_SPECIFIER: jikejia_DEV_profile
