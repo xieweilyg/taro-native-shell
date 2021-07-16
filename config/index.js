@@ -29,12 +29,17 @@ const config = {
   rn: {
     appName: 'taroDemo', // 生成的包registerComponent值，要跟APP名一致
     output: {
-      ios: 'dist/ios/main.jsbundle', // 这个路径是相对于工程根目录的，不是相对于index.js配置文件的
-      iosAssetsDest: 'dist/ios/assets',
-      iosSourcemapOutput: 'dist/ios/ios.map',
-      android: 'dist/android/index.android.bundle',
-      androidAssetsDest: 'dist/android/assets',
-      androidSourcemapOutput: 'dist/android/android.map',
+      ios: './ios/main.jsbundle',
+      iosAssetsDest: './ios',
+      android: './android/app/src/main/assets/index.android.bundle',
+      androidAssetsDest: './android/app/src/main/res',
+      // iosSourceMapUrl: '',
+      iosSourcemapOutput: './ios/main.map',
+      // iosSourcemapSourcesRoot: '',
+      // androidSourceMapUrl: '',
+      androidSourcemapOutput: './android/app/src/main/assets/index.android.map',
+      // androidSourcemapSourcesRoot: '',
+
     },
     postcss: {
       cssModules: {
