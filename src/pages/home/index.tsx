@@ -31,7 +31,7 @@ export default class Index extends Component {
           <View className="view-item">
           <Button type="primary" onClick={()=>Taro.redirectTo({
           url: 'pages/component/components/view/index',
-        })}>调整</Button>
+        })}>调整233</Button>
             <Text className="view-text">Hi，年轻人，你已经看到首页啦，下方就是tabbar的配置效果~可以试试 
               <Text className="point-text" onClick={this.handleMoreInfoClick}>点我查看更多&gt;&gt;</Text>
             </Text>
