@@ -1,0 +1,23 @@
+.view-content {
+    padding-top: 30px;
+}
+
+.view-item {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.view-text {
+    margin: 10px auto;
+    display: flex;
+    padding: 30px 0;
+    width: 45%;
+    border: dotted 1px rgb(189, 189, 189);
+    border-radius: 20px;
+    background-color: #fff;
+}
+
+.entry-text {
+    margin: auto;
+    font-size: 30px;
+}

@@ -1,0 +1,23 @@
+.movable-area {
+    width: 220px;
+    height: 220px;
+    background-color: blue;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+  
+  .movable-view {
+  
+    left: 100px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    overflow: hidden;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 60px;
+  }
+  
